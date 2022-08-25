@@ -92,7 +92,6 @@ class FictionalDriver implements SocialDriverInterface
         if (null === $posts) {
             throw new BadResponseException('No posts returned');
         }
-        file_put_contents(__DIR__ . DIRECTORY_SEPARATOR . "x.json", json_encode($posts));
         return $posts;
     }
 
