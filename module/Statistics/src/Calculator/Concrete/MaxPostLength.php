@@ -1,8 +1,9 @@
 <?php
 
-namespace Statistics\Calculator;
+namespace Statistics\Calculator\Concrete;
 
 use SocialPost\Dto\SocialPostTo;
+use Statistics\Calculator\AbstractCalculator;
 use Statistics\Dto\StatisticsTo;
 
 /**

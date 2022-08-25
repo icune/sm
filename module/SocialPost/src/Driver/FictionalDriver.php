@@ -92,7 +92,6 @@ class FictionalDriver implements SocialDriverInterface
         if (null === $posts) {
             throw new BadResponseException('No posts returned');
         }
-
         return $posts;
     }
 
